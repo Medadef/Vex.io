@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Vex.io : Des drapeaux propres, zou faut la machine à laver</title>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kurale|Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  </head>
+
+
+  <body>
+
+  <div id="banner">
+    <h1 id="titre"><a href="index.html"> Vexio </a></h1>
+  </div>
+
+  <div id="menulatéral">
+    <div id="ajd"> <h3>Aujourd'hui</h3>
+    <div> <a href="DN.html" class="optionsmenu"> Drapeaux nationaux </a> </div>
+    <div> <a href="DR.html" class="optionsmenu"> Drapeaux régionaux </a> </div>
+    <div> <a href="AD.html" class="optionsmenu"> Autres drapeaux </a> </div>
+    </div>
+
+    <div id="avant"> <h3> Hier </h3>
+    <div> <a href="HDN.html" class="optionsmenu"> Drapeaux nationaux </a> </div>
+    <div> <a href="HDR.html" class="optionsmenu"> Drapeaux régionaux </a> </div>
+    <div> <a href="HAD.html" class="optionsmenu"> Autres drapeaux </a> </div>
+    </div>
+
+    <div id="autre"> <h3> Divers </h3>
+      <div> <a href="ZG.html" class="optionsmenu"> Générateur de drapeaux </a> </div>
+      <div> <a href="ZH.html" class="optionsmenu"> Histoire de la vexillologie </a> </div>
+      <div> <a href="ZS.html" class="optionsmenu"> Sources </a> </div>
+  </div>
+
+  <div id="interfaceprincipale">
+    <h1 id="menu">Bonjour!</h1>
+    <p id="intro"> blablablabla je m'appelle Christophe et je vends des voitures rouges le samedi aprem, voici ma toute nouvelle twingo 2006 </p>
+  </div>
+ <div id="assistant">
+ </div>
+ <div id="nompays"><p>Veuillez sélectionner un drapeau...</p> </div>
+
+
+<script>
+function slide(){
+$("#menulatéral").css("top",'85px');
+$("#interfaceprincipale").css("left",'12%');
+$("#banner").css("top",'0%');
+$("#nompays").css("top",'-1%');
+$("#assistant").css("right",'0%');
+}
+window.onload=slide;
+</script>
+  </body>
+</html>
